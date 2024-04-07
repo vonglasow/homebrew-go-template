@@ -5,21 +5,21 @@
 class TemplateGo < Formula
   desc "Template"
   homepage "https://github.com/vonglasow/template-go"
-  version "1.1.6"
+  version "1.1.7"
   license "GPL3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vonglasow/go-template/releases/download/v1.1.6/template-go_1.1.6_darwin_arm64.tar.gz"
-      sha256 "6b0d52ecaf3525f76b2ed74475948355ba834a5f81aab5c959211b1ad2e8c364"
+      url "https://github.com/vonglasow/template-go/releases/download/v1.1.7/template-go_1.1.7_darwin_arm64.tar.gz"
+      sha256 "0464135332f9e7376f711210932dbb87d5faa7567ccd41ac94b95650a114edc0"
 
       def install
         bin.install "template-go"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vonglasow/go-template/releases/download/v1.1.6/template-go_1.1.6_darwin_amd64.tar.gz"
-      sha256 "7739a45a6b3b803cbf2598e9b38ba5763c96f76d0bc7dc6c061e5bd3e62b9815"
+      url "https://github.com/vonglasow/template-go/releases/download/v1.1.7/template-go_1.1.7_darwin_amd64.tar.gz"
+      sha256 "77c41fe2b0ba607eda81364b612b16f8df051136ec38decc004ef92e2e12c0b3"
 
       def install
         bin.install "template-go"
@@ -29,8 +29,8 @@ class TemplateGo < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/vonglasow/go-template/releases/download/v1.1.6/template-go_1.1.6_linux_amd64.tar.gz"
-      sha256 "d687c056a6de8d354582dd5c4138ce9f6252a8f784f71c172f0ca4aeccab68d7"
+      url "https://github.com/vonglasow/template-go/releases/download/v1.1.7/template-go_1.1.7_linux_amd64.tar.gz"
+      sha256 "67b1c89d08511ef8888c23b1c0c00a6792647f0bf66037e9cc2e61158ba73adf"
 
       def install
         bin.install "template-go"
